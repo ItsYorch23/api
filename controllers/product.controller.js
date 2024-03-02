@@ -5,7 +5,7 @@ export default class ProductController{
     }
     
       postProduct = (req, res) => {
-        res.status(200).json({msg: "esto es un post"})
+        res.status(200).json({msg: "esto es un post para prueba"})
     }
 }
 
